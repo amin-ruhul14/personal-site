@@ -1,0 +1,137 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    font-size: 18px;
+    color: dimgray;
+}
+.highlight{
+    color: orange;
+}
+section{
+    height: 500px;
+    padding-bottom: 200px;
+}
+/* === START TOP SECTION === */
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+    padding-top: 50px;
+}
+/* === END TOP SECTION === */
+/* === BUTTON === */
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, tomato, lightsalmon);
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+}
+/* === BUTTON === */
+/* === START ABOUT SECTION === */
+.about h2{
+    padding-top: 100px;
+}
+/* === END ABOUT SECTION === */
+/* === START PROJECTS SECTION ===*/
+.project{
+    background-color: whitesmoke;
+    padding-top: 100px;
+}
+.project h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 300;
+}
+.latest-project{
+    width: 25%;
+    float: left;
+    margin-left: 5%;
+    padding: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    background-color: white;
+    border-radius: 5px;
+}
+.latest-project img{
+    width: 100%;
+    height: 250px;
+}
+/* END PROJECT SECTION ===*/
+/* === START EXTRA SECTION === */
+.extra-area{
+    height: 400px;
+}
+.extra-area img{
+    width: 80%;
+    height: 400px;
+}
+.dev-need{
+    padding-top: 100px;
+}
+/* === END EXTRA SECTION === */
+/* === START INQUIRY SECTION === */
+.inquiry{
+    height: 20px;
+    background-color: blue;
+    width: 900px;
+    margin-left: 500px;
+    border-radius: 10px
+}
+.inquiry h1, a{
+    float: left;
+}
+.inquiry h1{
+    padding-top: 60px;
+    padding-left: 50px;
+    font-size: 40px;
+    color: white;
+    text-transform: uppercase;
+}
+.inq-btn{
+    margin-top: 100px;
+    margin-left: 350px;
+
+}
+/* END INQUIRY SECTION === */
+/* === START FOOTER === */
+footer{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+footer h6, h5{
+    text-align: center;
+    line-height: 1px;
+}
+h6{
+    color: dimgray;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+h5{
+    font-size: 18px;
+    color: dimgray;
+}
+.ft-img{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+}
+footer img{
+    padding-left: 15px;
+}
+/* === END FOOTER === */
